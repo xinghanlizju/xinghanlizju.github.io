@@ -19,13 +19,14 @@ tags:
 - google scholar
 - linkin
 
-# 博客分享主要按照以下目录介绍（catagory）：
+# 分享按照目录介绍（catagory）
 - 人物（character）
 - 思考 (thinking)
 - 生活 (life)
 - 工作 (working)
   
-  
-```
-坚持所信
-```
+{% blockquote Russell, Interview to Future Generation%}
+When you are studying any matter or considering any philosophy, ask yourself only what are the facts and what is the truth that the fact bears out. Never let yourself be diverted either by what you wish to believe, or by what you think would have beneficent social effects if it were believed. But look only, and solely, at what are the facts.
+
+Regarding to moral things, the love is wise, hatred is foolish. We have to learn to tolerate each other.
+{% endblockquote %}
