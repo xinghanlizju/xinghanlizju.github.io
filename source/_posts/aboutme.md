@@ -12,4 +12,11 @@ tags:
 # 业余爱好
 - 记录旅游
 - 球类运动
+
+
+# 你还可以通过以下方式了解我
+- github
+- google scholar
+- linkin
+  
   
