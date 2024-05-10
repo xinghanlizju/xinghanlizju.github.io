@@ -8,7 +8,9 @@ subtitle: 'Record of the life, studying and work'
 description: ''
 keywords:
 author: Xinghan Li
-language: en
+language: 
+- zh-cn
+- en
 timezone: ''
 
 # URL
@@ -40,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
