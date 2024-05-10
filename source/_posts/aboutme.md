@@ -18,5 +18,14 @@ tags:
 - github
 - google scholar
 - linkin
+
+# 博客分享主要按照以下目录介绍（catagory）：
+- 人物（character）
+- 思考 (thinking)
+- 生活 (life)
+- 工作 (working)
   
   
+```
+坚持所信
+```
