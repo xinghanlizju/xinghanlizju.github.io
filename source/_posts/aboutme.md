@@ -15,9 +15,9 @@ tags:
 
 
 # 你还可以通过以下方式了解我
-- github
-- google scholar
-- linkin
+- [github](https://github.com/xinghanlizju)
+- [google scholar](https://scholar.google.com/citations?user=9nndyKoAAAAJ&hl=zh-CN)
+- [linkin](https://www.linkedin.com/in/xinghan-li-707155285/)
 
 # 分享按照目录介绍（catagory）
 - 人物（character）
