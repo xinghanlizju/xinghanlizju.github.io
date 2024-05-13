@@ -7,15 +7,14 @@ mathjax: true
 
 
 # 什么是Schur-complement BA？
-## Schur-complememt BA 是一种有效解决非线性最小二乘问题的方法
-### SLAM问题背景
+## SLAM问题背景
 SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下：
 $$\operatorname{argmin}_{x\in\mathcal{X}}\|r(x)\|^2,$$
 其中$\mathcal{X}$是变量的集合，包括相机位置姿态以及landmark的位置信息。
 
 这类优化问题SLAM里面通常的解法是[Gaussian-Newton](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm#)方法以及[Levenberg–Marquardt algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)。这类数值求解方法从效率和准确性上对于SLAM大规模优化变量以及非线性优化问题都没有充分利用。Schur补就是这样的一种变种用来针对每次迭代过程中进行效率的提升。
 
-### Schur-complememt方便最小二乘问题的求解
+## Schur-complememt方便最小二乘问题的求解
 下面给出Schur-complement的主要公式：
 $$
 {\begin{aligned}
@@ -37,7 +36,7 @@ $$
 $$
 因此可以解决线性最小二乘问题。
 
-### Gaussian-Newton(GN) 方法中出现线性最小二乘问题
+## Gaussian-Newton(GN) 方法中出现线性最小二乘问题
 GN方法是将原问题线性化后优化的主要方法（有很多理论性质，不在这里过多讨论），因此将BA问题线性化后可以得到如下形式的优化问题：
 $$\operatorname{argmin}_{x\in\mathcal{X}}\|r(x)\|^2 \implies \operatorname{argmin}_{x\in\mathcal{X}}\|r(x_0)+H\delta x\|^2$$
 因为$H$不是一个方阵，因此可以通过乘以$H^\top$的方式将这个问题写出来：
@@ -46,7 +45,7 @@ $$
 $$
 接下来我们就可以用shur补的方式代入求解。
 
-### 常见的技巧：QR分解
+## 常见的技巧：QR分解
 $H$的矩阵维度为$2n*(6+3n)$,其中包括$H_p$和$H_f$,指的是位姿的雅克比和路标的雅克比。这一步经常采用QR分解减少计算。（[QR分解](https://en.wikipedia.org/wiki/QR_decomposition)主要是一种分解成orthonormal matrix Q和an upper triangular matrix R的方法,不在这里介绍。）
 
 文章[Square Root Bundle Adjustment for Large-Scale Reconstruction](https://openaccess.thecvf.com/content/CVPR2021/papers/Demmel_Square_Root_Bundle_Adjustment_for_Large-Scale_Reconstruction_CVPR_2021_paper.pdf)中采用的方案是将$H_f$分解成两部分（公式15）。
