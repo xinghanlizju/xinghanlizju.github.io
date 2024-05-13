@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>Palace of LXH</title>
+  <title>schur-complement BA | Palace of LXH</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Palace of LXH">
-<meta property="og:url" content="https://xinghanlizju.github.io/index.html">
+  <meta name="description" content="什么是Schur-complement BA？ Schur-complememt BA 是一种有效解决非线性最小二乘问题的方法 SLAM问题背景 SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下： \[\argmin_{x\in\mathcal{X}}\|r(x)\|^2,\] 其中\(\mathcal{X}\)是变量的集合，包括">
+<meta property="og:type" content="article">
+<meta property="og:title" content="schur-complement BA">
+<meta property="og:url" content="https://xinghanlizju.github.io/2024/05/12/schur-complement-BA-vs-MSCKF/index.html">
 <meta property="og:site_name" content="Palace of LXH">
+<meta property="og:description" content="什么是Schur-complement BA？ Schur-complememt BA 是一种有效解决非线性最小二乘问题的方法 SLAM问题背景 SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下： \[\argmin_{x\in\mathcal{X}}\|r(x)\|^2,\] 其中\(\mathcal{X}\)是变量的集合，包括">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-05-12T14:14:38.000Z">
+<meta property="article:modified_time" content="2024-05-13T01:20:21.977Z">
 <meta property="article:author" content="Xinghan Li">
+<meta property="article:tag" content="SLAM">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Palace of LXH" type="application/atom+xml">
@@ -71,9 +76,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-schur-complement-BA-vs-MSCKF" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-schur-complement-BA-vs-MSCKF" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/05/12/schur-complement-BA-vs-MSCKF/" class="article-date">
   <time class="dt-published" datetime="2024-05-12T14:14:38.000Z" itemprop="datePublished">2024-05-12</time>
@@ -86,8 +89,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/12/schur-complement-BA-vs-MSCKF/">schur-complement BA</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      schur-complement BA
     </h1>
   
 
@@ -177,145 +180,19 @@ class="math inline">\(m&lt;n\)</span>的矩阵。</p>
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-aboutme" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/05/10/aboutme/" class="article-date">
-  <time class="dt-published" datetime="2024-05-10T08:50:16.000Z" itemprop="datePublished">2024-05-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/10/aboutme/">关于我</a>
-    </h1>
+    <a href="/2024/05/10/aboutme/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">关于我</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="生活公理">生活公理</h1>
-<ol type="1">
-<li>家人&gt;生活&gt;工作</li>
-<li>坚持身材，保持清醒</li>
-<li>工程师：致力于创造可以承载温暖的技术。</li>
-</ol>
-<h1 id="业余爱好">业余爱好</h1>
-<ul>
-<li>记录旅游</li>
-<li>球类运动</li>
-</ul>
-<h1 id="你还可以通过以下方式了解我">你还可以通过以下方式了解我</h1>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/xinghanlizju">github</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google
-scholar</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
-</ul>
-<h1 id="分享按照目录介绍catagory">分享按照目录介绍（catagory）</h1>
-<ul>
-<li>人物（character）</li>
-<li>思考 (thinking)</li>
-<li>生活 (life)</li>
-<li>工作 (working)</li>
-</ul>
-<blockquote><p>When you are studying any matter or considering any philosophy, ask
-yourself only what are the facts and what is the truth that the fact
-bears out. Never let yourself be diverted either by what you wish to
-believe, or by what you think would have beneficent social effects if it
-were believed. But look only, and solely, at what are the facts.</p>
-<p>Regarding to moral things, the love is wise, hatred is foolish. We
-have to learn to tolerate each other.</p>
-<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xinghanlizju.github.io/2024/05/10/aboutme/" data-id="clw4bgeh00000lqm0bwpt036t" data-title="关于我" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/05/10/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-05-10T06:53:53.922Z" itemprop="datePublished">2024-05-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/05/10/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xinghanlizju.github.io/2024/05/10/hello-world/" data-id="clw4bgeh20001lqm07lcjbgfx" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
