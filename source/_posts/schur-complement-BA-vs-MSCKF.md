@@ -9,7 +9,7 @@ mathjax: true
 # 什么是Schur-complement BA？
 ## SLAM问题背景
 SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下：
-$$\operatorname{argmin}_{x\in\mathcal{X}}\|r(x)\|^2,$$
+$$\text{argmin}_{x\in\mathcal{X}}\|r(x)\|^2,$$
 其中$\mathcal{X}$是变量的集合，包括相机位置姿态以及landmark的位置信息。
 
 这类优化问题SLAM里面通常的解法是[Gaussian-Newton](https://en.wikipedia.org/wiki/Gauss%E2%80%93Newton_algorithm#)方法以及[Levenberg–Marquardt algorithm](https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm)。这类数值求解方法从效率和准确性上对于SLAM大规模优化变量以及非线性优化问题都没有充分利用。Schur补就是这样的一种变种用来针对每次迭代过程中进行效率的提升。
@@ -38,7 +38,7 @@ $$
 
 ## Gaussian-Newton(GN) 方法中出现线性最小二乘问题
 GN方法是将原问题线性化后优化的主要方法（有很多理论性质，不在这里过多讨论），因此将BA问题线性化后可以得到如下形式的优化问题：
-$$\operatorname{argmin}_{x\in\mathcal{X}}\|r(x)\|^2 \implies \operatorname{argmin}_{x\in\mathcal{X}}\|r(x_0)+H\delta x\|^2$$
+$$\text{argmin}_{x\in\mathcal{X}}\|r(x)\|^2 \implies \text{argmin}_{x\in\mathcal{X}}\|r(x_0)+H\delta x\|^2$$
 因为$H$不是一个方阵，因此可以通过乘以$H^\top$的方式将这个问题写出来：
 $$
 -H^\top H\delta x=H^\top r(x_0),
