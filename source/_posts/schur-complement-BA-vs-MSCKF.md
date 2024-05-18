@@ -1,7 +1,9 @@
 ---
 title: schur-complement BA
+categories: working
 tags: SLAM
 date: 2024-05-12 22:14:38
+top: true
 mathjax: true
 ---
 

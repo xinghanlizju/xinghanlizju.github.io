@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Palace of LXH</title>
+  
+  <subtitle>Record of life, studying and working</subtitle>
+  <link href="https://xinghanlizju.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xinghanlizju.github.io/"/>
+  <updated>2024-05-18T09:03:26.378Z</updated>
+  <id>https://xinghanlizju.github.io/</id>
+  
+  <author>
+    <name>Xinghan Li</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>schur-complement BA</title>
+    <link href="https://xinghanlizju.github.io/2024/05/12/schur-complement-BA-vs-MSCKF/"/>
+    <id>https://xinghanlizju.github.io/2024/05/12/schur-complement-BA-vs-MSCKF/</id>
+    <published>2024-05-12T14:14:38.000Z</published>
+    <updated>2024-05-18T09:03:26.378Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是Schur-complement-BA？&quot;&gt;&lt;a href=&quot;#什么是Schur-complement-BA？&quot; class=&quot;headerlink&quot; title=&quot;什么是Schur-complement</summary>
+        
+      
+    
+    
+    
+    <category term="working" scheme="https://xinghanlizju.github.io/categories/working/"/>
+    
+    
+    <category term="SLAM" scheme="https://xinghanlizju.github.io/tags/SLAM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="https://xinghanlizju.github.io/2024/05/10/aboutme/"/>
+    <id>https://xinghanlizju.github.io/2024/05/10/aboutme/</id>
+    <published>2024-05-10T08:50:16.000Z</published>
+    <updated>2024-05-12T03:34:01.884Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;生活公理&quot;&gt;生活公理&lt;/h1&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;家人&amp;gt;生活&amp;gt;工作&lt;/li&gt;
+&lt;li&gt;坚持身材，保持清醒&lt;/li&gt;
+&lt;li&gt;工程师：致力于创造可以承载温暖的技术。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xinghanlizju.github.io/2024/05/10/hello-world/"/>
+    <id>https://xinghanlizju.github.io/2024/05/10/hello-world/</id>
+    <published>2024-05-10T06:53:53.922Z</published>
+    <updated>2024-05-10T04:35:23.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
