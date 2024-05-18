@@ -1,7 +1,11 @@
 ---
 title: 关于我
 date: 2024-05-18 16:45:51
+photos: [
+        ["banner.jpg"]
+        ]
 ---
+<img src="banner.jpg">
 # 生活公理
 1. 家人>生活>工作
 2. 坚持身材，保持清醒
