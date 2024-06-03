@@ -1,5 +1,5 @@
 ---
-title: How_to_deal_with_outliers
+title: How to deal with outliers in MLE
 tags:
   - learning
   - statistics
@@ -7,7 +7,7 @@ categories: working
 date: 2024-06-03 14:15:47
 ---
 
-# How to deal with outliers from Maximum Likelihood Estimation
+# How to deal with outliers in Maximum Likelihood Estimation problem
 This post will introduce a common method for dealing with outliers in MLE problem.
 
 ## Intro
