@@ -1,7 +1,8 @@
 ---
 title: 关于我 
 date: 2024-05-10 16:50:16
-tags:
+tags: 碎碎念
+categories: life
 ---
 
 # 生活公理

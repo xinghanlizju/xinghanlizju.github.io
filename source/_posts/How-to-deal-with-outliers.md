@@ -1,9 +1,8 @@
 ---
 title: How to deal with outliers in MLE
-tags:
-  - learning
-  - statistics
+tags: [SLAM, statistics]
 categories: working
+mathjax: true
 date: 2024-06-03 14:15:47
 ---
 
