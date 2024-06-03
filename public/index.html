@@ -272,6 +272,141 @@ H_f:=QR=\begin{bmatrix}
 
 </article>
     
+    <article id="post-How-to-deal-with-outliers" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+  
+  <h2 class="article-title" itemprop="name">
+    <a href="/2024/06/03/How-to-deal-with-outliers/">How_to_deal_with_outliers</a>
+  </h2>
+  
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2024/06/03/How-to-deal-with-outliers/" class="article-date">
+  <time datetime="2024-06-03T06:15:47.000Z" itemprop="datePublished">2024-06-03</time>
+</a>
+      
+<div class="article-category">
+  <a class="article-category-link" href="/categories/working/">working</a>
+</div>
+
+    </div>
+    
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        
+      
+      
+        <h1 id="How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation"><a href="#How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation" class="headerlink" title="How to deal with outliers from Maximum Likelihood Estimation"></a>How to deal with outliers from Maximum Likelihood Estimation</h1><p>This post will introduce a common method for dealing with outliers in MLE problem.</p>
+<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>Consider a set of 3D points, $X={x_1,x_2,…,x_n}$ with $x_n\in\mathbb{R}^3$ on an arbitrary probability distribution. We want to estimate the parameter of a modelled probabiliry distribution based on Maximum Likelihood.</p>
+<p>We can solve this numerically, i.e., use an iterative gradient descent method to minimize the negative log likelihood:</p>
+<script type="math/tex; mode=display">
+\mathcal{L}=\sum_{x\in X}-\log(P(x|\theta))</script><p>where $P(x|\theta)$ is the probability density function and $\theta$ is the vector of parameters to optimize.</p>
+<h2 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h2><p>We assume that the outliers satisfy a uniform PDF with constant denoted by $\Omega$. MLE without outlies can be written as:</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(P(x \, | \,\theta)).</script><p>When considering the outliers, we have a new objective function</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(w_1 \, P(x \, | \,\theta) + w_2 \, \Omega),</script><p>using $w_2=1-w_1$.<br>Reranging terms, we have the following equivalent form:</p>
+<script type="math/tex; mode=display">\hat{\theta} =  \min_\theta  \sum_{x \in X} -\log( \, P(x \, | \,\theta) + \frac{1-w_1}{w_1} \, \Omega -\log(w_1).</script><p>If you know more properties about outliers, and if you know more about the true distribution (e.g. potential correlation between measurements), then you can incorporate this into the likelihood function.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://xinghanlizju.github.io/2024/06/03/How-to-deal-with-outliers/" data-id="clwykpwvl0001jb51e88pe5dz" class="article-share-link">
+        Share
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/learning/" rel="tag">learning</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/statistics/" rel="tag">statistics</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+    
+    <article id="post-目标" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+  
+  <h2 class="article-title" itemprop="name">
+    <a href="/2024/05/25/%E7%9B%AE%E6%A0%87/">一个悲观理想主义者的自述</a>
+  </h2>
+  
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2024/05/25/%E7%9B%AE%E6%A0%87/" class="article-date">
+  <time datetime="2024-05-24T16:47:29.000Z" itemprop="datePublished">2024-05-25</time>
+</a>
+      
+<div class="article-category">
+  <a class="article-category-link" href="/categories/life/">life</a>
+</div>
+
+    </div>
+    
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        
+      
+      
+        <h1 id="一个悲观理想主义者的自述"><a href="#一个悲观理想主义者的自述" class="headerlink" title="一个悲观理想主义者的自述"></a>一个悲观理想主义者的自述</h1><p>我是一个悲观的理想主义者。大部分时间，我对于事物的思考和形式的预测都是偏向于最坏情况; 但是又始终拥有自己的理想世界和宏大目标。即将三十而立，我未处于一个使得自己满意的人生状态。对于未来可能依旧是。但是自己依旧有着理想，并愿意朝着这个方向前行。</p>
+<h2 id="当前身心的极度疲乏"><a href="#当前身心的极度疲乏" class="headerlink" title="当前身心的极度疲乏"></a>当前身心的极度疲乏</h2><p>本人之前几年是一个科研工作者，所做工作主要涉及理论证明，算法提出，编写代码最后论文书写。在一个科研工作中，这四个步骤要不断优化迭代，最终我们要呈现一个完整的且有说服力的论文。</p>
+<p>如果一个工作到这里结束，个人认为还是颇有成就也不会那么疲倦。最疲倦的是投稿过程。由于自身的理想以及导师的理想，我们从最开始就想投最好的期刊。我所处的领域是几个非常sharp的科研工作人员有绝对的话语权。我们的研究对于研究十几年的他们，像是一个门外汉在班门弄斧。从投稿那一刻，我就常心怀忐忑从而认为期刊中的可能性极小。除此之外，有一篇投稿还出现了很长的审稿周期。家里又出现了变故。因此在现在这个年纪，身心已经极度疲乏。以前的“中规中矩”的人生规划也要重新审视。</p>
+<h2 id="当前物质的极度匮乏"><a href="#当前物质的极度匮乏" class="headerlink" title="当前物质的极度匮乏"></a>当前物质的极度匮乏</h2><p>最近几年，由于处于求学状态，经济方面十分匮乏。在自己的爱人面前或是父母面前，自己也因为无法出手体面一点常常处于囧态。这种物质的匮乏很多时候甚至无法让我专心工作。物质的匮乏也使得我担忧父母生病或者自己生病。我对于未来的自己身价或者经济情况也依旧充满悲观。</p>
+<h2 id="三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”"><a href="#三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”" class="headerlink" title="三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”"></a>三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”</h2><p>我二十多岁的时候对于理想方向是茫然的。这十年并没有思考未来的哪条路更适合我，或者更能怼到我的兴奋点。我总认为以自己的学历和小聪明混个体面的工作不难。在这个期间，我的时间规划上也出现了极大问题，在重要的事情上不清晰，在紧要的事情上不紧张。</p>
+<p>但是将近三十，人生也经历了大喜大悲。我不断敲打自己，究竟喜欢做什么？以及为社会留下什么？因此心中构想的未来的自己也逐渐清晰。那不是一个拥有一定社会地位的人，也不一定是有一份体面工作的人，更不一定是一个有钱人。但他一定是对梦想坚定的人。他一定是一个对未来充满满腔热血的人。他一定是一个承载温暖内容的技术输出者。</p>
+<p>我的三十而立，不是家庭立，事业立。而是价值立，理想立。我也会朝着我想做的内容前行，“望尽天涯路”。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在未来的人生路上，我对事物的看待观点大概率依旧保持悲观，但是对于自己的“执着”不想因为悲观而有所改变，即使这是一种看似矛盾的性格。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://xinghanlizju.github.io/2024/05/25/%E7%9B%AE%E6%A0%87/" data-id="clwye15rm00014b51hspbfbzl" class="article-share-link">
+        Share
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E8%AF%86/" rel="tag">自我认识</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+    
     <article id="post-aboutme" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 

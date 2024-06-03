@@ -8,7 +8,7 @@
   
   
   <title>
-    关于我 |
+    How_to_deal_with_outliers |
     
     Palace of LXH
   </title>
@@ -33,7 +33,7 @@
 <body>
   <main class="content">
     <section class="outer">
-  <article id="post-aboutme" class="article article-type-post" itemscope
+  <article id="post-How-to-deal-with-outliers" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -42,7 +42,7 @@
       
   
   <h1 class="article-title" itemprop="name">
-    关于我
+    How_to_deal_with_outliers
   </h1>
   
   
@@ -52,10 +52,14 @@
 
     
     <div class="article-meta">
-      <a href="/2024/05/10/aboutme/" class="article-date">
-  <time datetime="2024-05-10T08:50:16.000Z" itemprop="datePublished">2024-05-10</time>
+      <a href="/2024/06/03/How-to-deal-with-outliers/" class="article-date">
+  <time datetime="2024-06-03T06:15:47.000Z" itemprop="datePublished">2024-06-03</time>
 </a>
       
+<div class="article-category">
+  <a class="article-category-link" href="/categories/working/">working</a>
+</div>
+
     </div>
     
 
@@ -69,49 +73,27 @@
       
       
       
-        <h1 id="生活公理">生活公理</h1>
-<ol type="1">
-<li>家人&gt;生活&gt;工作</li>
-<li>坚持身材，保持清醒</li>
-<li>工程师：致力于创造可以承载温暖的技术。</li>
-</ol>
-<h1 id="业余爱好">业余爱好</h1>
-<ul>
-<li>记录旅游</li>
-<li>球类运动</li>
-</ul>
-<h1 id="你还可以通过以下方式了解我">你还可以通过以下方式了解我</h1>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/xinghanlizju">github</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google
-scholar</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
-</ul>
-<h1 id="分享按照目录介绍catagory">分享按照目录介绍（catagory）</h1>
-<ul>
-<li>人物（character）</li>
-<li>思考 (thinking)</li>
-<li>生活 (life)</li>
-<li>工作 (working)</li>
-</ul>
-<blockquote><p>When you are studying any matter or considering any philosophy, ask
-yourself only what are the facts and what is the truth that the fact
-bears out. Never let yourself be diverted either by what you wish to
-believe, or by what you think would have beneficent social effects if it
-were believed. But look only, and solely, at what are the facts.</p>
-<p>Regarding to moral things, the love is wise, hatred is foolish. We
-have to learn to tolerate each other.</p>
-<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>
+        <h1 id="How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation"><a href="#How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation" class="headerlink" title="How to deal with outliers from Maximum Likelihood Estimation"></a>How to deal with outliers from Maximum Likelihood Estimation</h1><p>This post will introduce a common method for dealing with outliers in MLE problem.</p>
+<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>Consider a set of 3D points, $X={x_1,x_2,…,x_n}$ with $x_n\in\mathbb{R}^3$ on an arbitrary probability distribution. We want to estimate the parameter of a modelled probabiliry distribution based on Maximum Likelihood.</p>
+<p>We can solve this numerically, i.e., use an iterative gradient descent method to minimize the negative log likelihood:</p>
+<script type="math/tex; mode=display">
+\mathcal{L}=\sum_{x\in X}-\log(P(x|\theta))</script><p>where $P(x|\theta)$ is the probability density function and $\theta$ is the vector of parameters to optimize.</p>
+<h2 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h2><p>We assume that the outliers satisfy a uniform PDF with constant denoted by $\Omega$. MLE without outlies can be written as:</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(P(x \, | \,\theta)).</script><p>When considering the outliers, we have a new objective function</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(w_1 \, P(x \, | \,\theta) + w_2 \, \Omega),</script><p>using $w_2=1-w_1$.<br>Reranging terms, we have the following equivalent form:</p>
+<script type="math/tex; mode=display">\hat{\theta} =  \min_\theta  \sum_{x \in X} -\log( \, P(x \, | \,\theta) + \frac{1-w_1}{w_1} \, \Omega -\log(w_1).</script><p>If you know more properties about outliers, and if you know more about the true distribution (e.g. potential correlation between measurements), then you can incorporate this into the likelihood function.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xinghanlizju.github.io/2024/05/10/aboutme/" data-id="clw4bgeh00000lqm0bwpt036t" class="article-share-link">
+      <a data-url="https://xinghanlizju.github.io/2024/06/03/How-to-deal-with-outliers/" data-id="clwykpwvl0001jb51e88pe5dz" class="article-share-link">
         Share
       </a>
       
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/learning/" rel="tag">learning</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/statistics/" rel="tag">statistics</a></li></ul>
+
     </footer>
 
   </div>
@@ -120,19 +102,10 @@ have to learn to tolerate each other.</p>
   
 <nav class="article-nav">
   
-  <a href="/2024/05/12/schur-complement-BA-vs-MSCKF/" class="article-nav-link">
-    <strong class="article-nav-caption">Newer</strong>
-    <div class="article-nav-title">
-      
-      schur-complement BA
-      
-    </div>
-  </a>
   
-  
-  <a href="/2024/05/10/hello-world/" class="article-nav-link">
+  <a href="/2024/05/25/%E7%9B%AE%E6%A0%87/" class="article-nav-link">
     <strong class="article-nav-caption">Older</strong>
-    <div class="article-nav-title">Hello World</div>
+    <div class="article-nav-title">一个悲观理想主义者的自述</div>
   </a>
   
 </nav>
