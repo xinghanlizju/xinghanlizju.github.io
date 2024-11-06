@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于我</title>
+    <url>/2024/05/10/aboutme/</url>
+    <content><![CDATA[<h1 id="生活公理"><a href="#生活公理" class="headerlink" title="生活公理"></a>生活公理</h1><ol>
+<li>工作&gt;生活&gt;家人</li>
+<li>坚持身材，保持清醒</li>
+<li>工程师：致力于创造可以承载温暖的技术。</li>
+</ol>
+<h1 id="业余爱好"><a href="#业余爱好" class="headerlink" title="业余爱好"></a>业余爱好</h1><ul>
+<li>记录旅游</li>
+<li>球类运动</li>
+</ul>
+<h1 id="你还可以通过以下方式了解我"><a href="#你还可以通过以下方式了解我" class="headerlink" title="你还可以通过以下方式了解我"></a>你还可以通过以下方式了解我</h1><ul>
+<li><a href="https://github.com/xinghanlizju">github</a></li>
+<li><a href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google scholar</a></li>
+<li><a href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
+</ul>
+<h1 id="分享按照目录介绍（catagory）"><a href="#分享按照目录介绍（catagory）" class="headerlink" title="分享按照目录介绍（catagory）"></a>分享按照目录介绍（catagory）</h1><ul>
+<li>人物（character）</li>
+<li>思考 (thinking)</li>
+<li>生活 (life)</li>
+<li>工作 (working)</li>
+</ul>
+<blockquote><p>When you are studying any matter or considering any philosophy, ask yourself only what are the facts and what is the truth that the fact bears out. Never let yourself be diverted either by what you wish to believe, or by what you think would have beneficent social effects if it were believed. But look only, and solely, at what are the facts.</p>
+<p>Regarding to moral things, the love is wise, hatred is foolish. We have to learn to tolerate each other.</p>
+<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/05/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>working</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>schur-complement BA</title>
     <url>/2024/05/12/schur-complement-BA-vs-MSCKF/</url>
     <content><![CDATA[<h1 id="什么是Schur-complement-BA？"><a href="#什么是Schur-complement-BA？" class="headerlink" title="什么是Schur-complement BA？"></a>什么是Schur-complement BA？</h1><h2 id="SLAM问题背景"><a href="#SLAM问题背景" class="headerlink" title="SLAM问题背景"></a>SLAM问题背景</h2><p>SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下：</p>
@@ -45,29 +98,6 @@ H_f:=QR=\begin{bmatrix}
       </tags>
   </entry>
   <entry>
-    <title>How_to_deal_with_outliers</title>
-    <url>/2024/06/03/How-to-deal-with-outliers/</url>
-    <content><![CDATA[<h1 id="How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation"><a href="#How-to-deal-with-outliers-from-Maximum-Likelihood-Estimation" class="headerlink" title="How to deal with outliers from Maximum Likelihood Estimation"></a>How to deal with outliers from Maximum Likelihood Estimation</h1><p>This post will introduce a common method for dealing with outliers in MLE problem.</p>
-<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>Consider a set of 3D points, $X={x_1,x_2,…,x_n}$ with $x_n\in\mathbb{R}^3$ on an arbitrary probability distribution. We want to estimate the parameter of a modelled probabiliry distribution based on Maximum Likelihood.</p>
-<p>We can solve this numerically, i.e., use an iterative gradient descent method to minimize the negative log likelihood:</p>
-<script type="math/tex; mode=display">
-\mathcal{L}=\sum_{x\in X}-\log(P(x|\theta))</script><p>where $P(x|\theta)$ is the probability density function and $\theta$ is the vector of parameters to optimize.</p>
-<h2 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h2><p>We assume that the outliers satisfy a uniform PDF with constant denoted by $\Omega$. MLE without outlies can be written as:</p>
-<script type="math/tex; mode=display">
-\hat{\theta} = \min_\theta \sum_{x \in X} -\log(P(x \, | \,\theta)).</script><p>When considering the outliers, we have a new objective function</p>
-<script type="math/tex; mode=display">
-\hat{\theta} = \min_\theta \sum_{x \in X} -\log(w_1 \, P(x \, | \,\theta) + w_2 \, \Omega),</script><p>using $w_2=1-w_1$.<br>Reranging terms, we have the following equivalent form:</p>
-<script type="math/tex; mode=display">\hat{\theta} =  \min_\theta  \sum_{x \in X} -\log( \, P(x \, | \,\theta) + \frac{1-w_1}{w_1} \, \Omega -\log(w_1).</script><p>If you know more properties about outliers, and if you know more about the true distribution (e.g. potential correlation between measurements), then you can incorporate this into the likelihood function.</p>
-]]></content>
-      <categories>
-        <category>working</category>
-      </categories>
-      <tags>
-        <tag>learning</tag>
-        <tag>statistics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一个悲观理想主义者的自述</title>
     <url>/2024/05/25/%E7%9B%AE%E6%A0%87/</url>
     <content><![CDATA[<h1 id="一个悲观理想主义者的自述"><a href="#一个悲观理想主义者的自述" class="headerlink" title="一个悲观理想主义者的自述"></a>一个悲观理想主义者的自述</h1><p>我是一个悲观的理想主义者。大部分时间，我对于事物的思考和形式的预测都是偏向于最坏情况; 但是又始终拥有自己的理想世界和宏大目标。即将三十而立，我未处于一个使得自己满意的人生状态。对于未来可能依旧是。但是自己依旧有着理想，并愿意朝着这个方向前行。</p>
@@ -83,75 +113,53 @@ H_f:=QR=\begin{bmatrix}
         <category>life</category>
       </categories>
       <tags>
-        <tag>自我认识</tag>
+        <tag>碎碎念</tag>
       </tags>
   </entry>
   <entry>
-    <title>关于我</title>
-    <url>/2024/05/10/aboutme/</url>
-    <content><![CDATA[<h1 id="生活公理">生活公理</h1>
-<ol type="1">
-<li>家人&gt;生活&gt;工作</li>
-<li>坚持身材，保持清醒</li>
-<li>工程师：致力于创造可以承载温暖的技术。</li>
-</ol>
-<h1 id="业余爱好">业余爱好</h1>
-<ul>
-<li>记录旅游</li>
-<li>球类运动</li>
-</ul>
-<h1 id="你还可以通过以下方式了解我">你还可以通过以下方式了解我</h1>
-<ul>
-<li><a href="https://github.com/xinghanlizju">github</a></li>
-<li><a
-href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google
-scholar</a></li>
-<li><a
-href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
-</ul>
-<h1 id="分享按照目录介绍catagory">分享按照目录介绍（catagory）</h1>
-<ul>
-<li>人物（character）</li>
-<li>思考 (thinking)</li>
-<li>生活 (life)</li>
-<li>工作 (working)</li>
-</ul>
-<blockquote><p>When you are studying any matter or considering any philosophy, ask
-yourself only what are the facts and what is the truth that the fact
-bears out. Never let yourself be diverted either by what you wish to
-believe, or by what you think would have beneficent social effects if it
-were believed. But look only, and solely, at what are the facts.</p>
-<p>Regarding to moral things, the love is wise, hatred is foolish. We
-have to learn to tolerate each other.</p>
-<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>
+    <title>How to deal with outliers in MLE</title>
+    <url>/2024/06/03/How-to-deal-with-outliers/</url>
+    <content><![CDATA[<h1 id="How-to-deal-with-outliers-in-Maximum-Likelihood-Estimation-problem"><a href="#How-to-deal-with-outliers-in-Maximum-Likelihood-Estimation-problem" class="headerlink" title="How to deal with outliers in Maximum Likelihood Estimation problem"></a>How to deal with outliers in Maximum Likelihood Estimation problem</h1><p>This post will introduce a common method for dealing with outliers in MLE problem.</p>
+<h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>Consider a set of 3D points, <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="17.997ex" height="1.984ex" role="img" focusable="false" viewBox="0 -683 7954.6 877"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D44B" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path></g><g data-mml-node="mo" transform="translate(1129.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="TeXAtom" data-mjx-texclass="ORD" transform="translate(2185.6,0)"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mn" transform="translate(605,-150) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g><g data-mml-node="mo" transform="translate(1008.6,0)"><path data-c="2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path></g><g data-mml-node="msub" transform="translate(1453.2,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mn" transform="translate(605,-150) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(2461.8,0)"><path data-c="2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path></g><g data-mml-node="mo" transform="translate(2906.4,0)"><path data-c="2026" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60ZM525 60Q525 84 542 102T585 120Q609 120 627 104T646 61Q646 36 629 18T586 0T543 17T525 60ZM972 60Q972 84 989 102T1032 120Q1056 120 1074 104T1093 61Q1093 36 1076 18T1033 0T990 17T972 60Z"></path></g><g data-mml-node="mo" transform="translate(4245.1,0)"><path data-c="2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path></g><g data-mml-node="msub" transform="translate(4689.8,0)"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mi" transform="translate(605,-150) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g></g></g></g></svg></mjx-container> with <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.357ex;" xmlns="http://www.w3.org/2000/svg" width="7.829ex" height="2.242ex" role="img" focusable="false" viewBox="0 -833.2 3460.4 991"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mi" transform="translate(605,-150) scale(0.707)"><path data-c="1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></g></g><g data-mml-node="mo" transform="translate(1357,0)"><path data-c="2208" d="M84 250Q84 372 166 450T360 539Q361 539 377 539T419 540T469 540H568Q583 532 583 520Q583 511 570 501L466 500Q355 499 329 494Q280 482 242 458T183 409T147 354T129 306T124 272V270H568Q583 262 583 250T568 230H124V228Q124 207 134 177T167 112T231 48T328 7Q355 1 466 0H570Q583 -10 583 -20Q583 -32 568 -40H471Q464 -40 446 -40T417 -41Q262 -41 172 45Q84 127 84 250Z"></path></g><g data-mml-node="msup" transform="translate(2301.8,0)"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="211D" d="M17 665Q17 672 28 683H221Q415 681 439 677Q461 673 481 667T516 654T544 639T566 623T584 607T597 592T607 578T614 565T618 554L621 548Q626 530 626 497Q626 447 613 419Q578 348 473 326L455 321Q462 310 473 292T517 226T578 141T637 72T686 35Q705 30 705 16Q705 7 693 -1H510Q503 6 404 159L306 310H268V183Q270 67 271 59Q274 42 291 38Q295 37 319 35Q344 35 353 28Q362 17 353 3L346 -1H28Q16 5 16 16Q16 35 55 35Q96 38 101 52Q106 60 106 341T101 632Q95 645 55 648Q17 648 17 665ZM241 35Q238 42 237 45T235 78T233 163T233 337V621L237 635L244 648H133Q136 641 137 638T139 603T141 517T141 341Q141 131 140 89T134 37Q133 36 133 35H241ZM457 496Q457 540 449 570T425 615T400 634T377 643Q374 643 339 648Q300 648 281 635Q271 628 270 610T268 481V346H284Q327 346 375 352Q421 364 439 392T457 496ZM492 537T492 496T488 427T478 389T469 371T464 361Q464 360 465 360Q469 360 497 370Q593 400 593 495Q593 592 477 630L457 637L461 626Q474 611 488 561Q492 537 492 496ZM464 243Q411 317 410 317Q404 317 401 315Q384 315 370 312H346L526 35H619L606 50Q553 109 464 243Z"></path></g></g><g data-mml-node="mn" transform="translate(755,363) scale(0.707)"><path data-c="33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></g></g></g></g></svg></mjx-container> on an arbitrary probability distribution. We want to estimate the parameter of a modelled probabiliry distribution based on Maximum Likelihood.</p>
+<p>We can solve this numerically, i.e., use an iterative gradient descent method to minimize the negative log likelihood:</p>
+<script type="math/tex; mode=display">
+\mathcal{L}=\sum_{x\in X}-\log(P(x|\theta))</script><p>where <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.566ex;" xmlns="http://www.w3.org/2000/svg" width="6.443ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 2848 1000"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D443" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path></g><g data-mml-node="mo" transform="translate(751,0)"><path data-c="28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path></g><g data-mml-node="mi" transform="translate(1140,0)"><path data-c="1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"></path></g><g data-mml-node="mo" transform="translate(1712,0) translate(0 -0.5)"><path data-c="7C" d="M139 -249H137Q125 -249 119 -235V251L120 737Q130 750 139 750Q152 750 159 735V-235Q151 -249 141 -249H139Z"></path></g><g data-mml-node="mi" transform="translate(1990,0)"><path data-c="1D703" d="M35 200Q35 302 74 415T180 610T319 704Q320 704 327 704T339 705Q393 701 423 656Q462 596 462 495Q462 380 417 261T302 66T168 -10H161Q125 -10 99 10T60 63T41 130T35 200ZM383 566Q383 668 330 668Q294 668 260 623T204 521T170 421T157 371Q206 370 254 370L351 371Q352 372 359 404T375 484T383 566ZM113 132Q113 26 166 26Q181 26 198 36T239 74T287 161T335 307L340 324H145Q145 321 136 286T120 208T113 132Z"></path></g><g data-mml-node="mo" transform="translate(2459,0)"><path data-c="29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path></g></g></g></svg></mjx-container> is the probability density function and <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.023ex;" xmlns="http://www.w3.org/2000/svg" width="1.061ex" height="1.618ex" role="img" focusable="false" viewBox="0 -705 469 715"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D703" d="M35 200Q35 302 74 415T180 610T319 704Q320 704 327 704T339 705Q393 701 423 656Q462 596 462 495Q462 380 417 261T302 66T168 -10H161Q125 -10 99 10T60 63T41 130T35 200ZM383 566Q383 668 330 668Q294 668 260 623T204 521T170 421T157 371Q206 370 254 370L351 371Q352 372 359 404T375 484T383 566ZM113 132Q113 26 166 26Q181 26 198 36T239 74T287 161T335 307L340 324H145Q145 321 136 286T120 208T113 132Z"></path></g></g></g></svg></mjx-container> is the vector of parameters to optimize.</p>
+<h2 id="Method"><a href="#Method" class="headerlink" title="Method"></a>Method</h2><p>We assume that the outliers satisfy a uniform PDF with constant denoted by <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.633ex" height="1.593ex" role="img" focusable="false" viewBox="0 -704 722 704"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="3A9" d="M55 454Q55 503 75 546T127 617T197 665T272 695T337 704H352Q396 704 404 703Q527 687 596 615T666 454Q666 392 635 330T559 200T499 83V80H543Q589 81 600 83T617 93Q622 102 629 135T636 172L637 177H677V175L660 89Q645 3 644 2V0H552H488Q461 0 456 3T451 20Q451 89 499 235T548 455Q548 512 530 555T483 622T424 656T361 668Q332 668 303 658T243 626T193 560T174 456Q174 380 222 233T270 20Q270 7 263 0H77V2Q76 3 61 89L44 175V177H84L85 172Q85 171 88 155T96 119T104 93Q109 86 120 84T178 80H222V83Q206 132 162 199T87 329T55 454Z"></path></g></g></g></svg></mjx-container>. MLE without outlies can be written as:</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(P(x \, | \,\theta)).</script><p>When considering the outliers, we have a new objective function</p>
+<script type="math/tex; mode=display">
+\hat{\theta} = \min_\theta \sum_{x \in X} -\log(w_1 \, P(x \, | \,\theta) + w_2 \, \Omega),</script><p>using <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.339ex;" xmlns="http://www.w3.org/2000/svg" width="12.129ex" height="1.846ex" role="img" focusable="false" viewBox="0 -666 5361.1 816"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D464" d="M580 385Q580 406 599 424T641 443Q659 443 674 425T690 368Q690 339 671 253Q656 197 644 161T609 80T554 12T482 -11Q438 -11 404 5T355 48Q354 47 352 44Q311 -11 252 -11Q226 -11 202 -5T155 14T118 53T104 116Q104 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Q21 293 29 315T52 366T96 418T161 441Q204 441 227 416T250 358Q250 340 217 250T184 111Q184 65 205 46T258 26Q301 26 334 87L339 96V119Q339 122 339 128T340 136T341 143T342 152T345 165T348 182T354 206T362 238T373 281Q402 395 406 404Q419 431 449 431Q468 431 475 421T483 402Q483 389 454 274T422 142Q420 131 420 107V100Q420 85 423 71T442 42T487 26Q558 26 600 148Q609 171 620 213T632 273Q632 306 619 325T593 357T580 385Z"></path></g><g data-mml-node="mn" transform="translate(749,-150) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g><g data-mml-node="mo" transform="translate(1430.3,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(2486.1,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g><g data-mml-node="mo" transform="translate(3208.3,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path></g><g data-mml-node="msub" transform="translate(4208.6,0)"><g data-mml-node="mi"><path data-c="1D464" d="M580 385Q580 406 599 424T641 443Q659 443 674 425T690 368Q690 339 671 253Q656 197 644 161T609 80T554 12T482 -11Q438 -11 404 5T355 48Q354 47 352 44Q311 -11 252 -11Q226 -11 202 -5T155 14T118 53T104 116Q104 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Q21 293 29 315T52 366T96 418T161 441Q204 441 227 416T250 358Q250 340 217 250T184 111Q184 65 205 46T258 26Q301 26 334 87L339 96V119Q339 122 339 128T340 136T341 143T342 152T345 165T348 182T354 206T362 238T373 281Q402 395 406 404Q419 431 449 431Q468 431 475 421T483 402Q483 389 454 274T422 142Q420 131 420 107V100Q420 85 423 71T442 42T487 26Q558 26 600 148Q609 171 620 213T632 273Q632 306 619 325T593 357T580 385Z"></path></g><g data-mml-node="mn" transform="translate(749,-150) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></g></svg></mjx-container>.<br>Reranging terms, we have the following equivalent form:</p>
+<script type="math/tex; mode=display">\hat{\theta} =  \min_\theta  \sum_{x \in X} -\log( \, P(x \, | \,\theta) + \frac{1-w_1}{w_1} \, \Omega -\log(w_1).</script><p>If you know more properties about outliers, and if you know more about the true distribution (e.g. potential correlation between measurements), then you can incorporate this into the likelihood function.</p>
 ]]></content>
+      <categories>
+        <category>working</category>
+      </categories>
+      <tags>
+        <tag>SLAM</tag>
+        <tag>statistics</tag>
+      </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/05/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a
-href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>逝去的婚姻</title>
+    <url>/2024/11/06/marriage/</url>
+    <content><![CDATA[<h1 id="一场看似浪漫的婚礼终走向现实"><a href="#一场看似浪漫的婚礼终走向现实" class="headerlink" title="一场看似浪漫的婚礼终走向现实"></a>一场看似浪漫的婚礼终走向现实</h1><p>“我要尽我的责任，永远爱护你，理解你，尊重你。”这句在婚礼殿堂上感染了无数来宾，没想到成为了婚姻破灭的一个原因。我和我的爱人总共经历了8年多的感情，从校园爱情，异地恋，工作再到进入婚姻殿堂，让无数人羡慕。但是这些建起来的高楼大厦经不起婚姻生活的折磨最终不幸轰然倒塌。这场婚姻开始是爱人急于为父母办一个绚丽的婚礼，我出于爱她以及给她承诺，同意了这场婚礼。由于本人在求学，这场婚礼举办的也相当廉价但是确实十分感人。然而这场婚姻破灭的导火索是一场很大的误会但是实际上是因为这座大楼的建立已经不平衡。我从这场婚姻中学到了以下几点道理：</p>
+<h2 id="1-永远不要丢失自己的精神内核"><a href="#1-永远不要丢失自己的精神内核" class="headerlink" title="1. 永远不要丢失自己的精神内核"></a>1. 永远不要丢失自己的精神内核</h2><p>今年爱人父亲的车祸意外去世。在这场丧礼里，爱人经历了至暗时刻，但依旧坚韧不拔，面对生活当时也毫无怯色。由于本人并非本地人，在当地举办丧礼的帮助是有限但是却尽力了的。从岳父去世的那天起，我就暗自发誓，我要陪伴她一切，并让她快速走出来。</p>
+<p>这种陪伴是无声的，是温柔的，也是涓涓细流的。但是确实是无力的，是不健康的。因为在陪伴的过程中，我不再拥有了曾经的斗志，而是只有呵护以及陪伴，并以她为中心，想要快速建立一个家庭。这种隐患导致丹丹对我更容易没有了感觉，可能习以为常以及发展成精神控制。从而双方都觉得在消耗。因为丹丹认为我做了很多妥协，为了丹丹放弃自己的职业梦想，选择了一个很近的工作一起生活；为了丹丹选择跑长达2-3小时通勤。这种选择让她很累，以及认为两个人都不快乐。</p>
+<p>而我自己确实在这种陪伴以及成家的过程中，确实丢掉了早期的精神内核，变得丧失斗志甚至对生命悲观。我的生活重心从自己发展成了丹丹。可笑的是，我以为是浪漫，但是早已发展成精神控制。</p>
+<p>直到丹丹最近遇到了一群朋友发生了价值观的重要改变。在与朋友的自由而放肆的生活中，她感受到了从未有过的快乐。这种快乐让她认为在生命里应该及时行乐。她也确实在这种快乐汲取能量，从而高效上班生活。但是，在这些自由而放肆的快乐中，我因为过去以丹丹为中心，有极度的不安全感，丧失了平稳的精神内核，在每次漫无目的的娱乐中也变的焦躁不安。而恰恰平稳的精神内核对我的生活，工作也很重要（日常需要冷静分析问题，解决问题）。因此，我感觉到了消耗。</p>
+<p>导火索是一场极大的误会。在这个误会中，因为我过度依赖丹丹，丧失了早期的冷静、情绪稳定以及理智的精神内核，变得粗暴，无理，情绪不稳定以及哭诉。像一个丢在马路上的孩子一样，及其情感不成熟。也让我的爱人发出了隐藏8年终于看透我的感慨。发展到后面本人的埋怨，焦躁，乞求、哭叫喊闹、寻求帮助的情绪让丹丹彻底对我死心。而这些情绪本不是我过去平稳的精神内核，或者是我幼稚一面衍生出来的。</p>
+<p>等到一切结束，我才发现，我以为的陪伴感动最后丢失了自己的“顽强，积极”平稳的精神内核。而这一切，才应该是我该关注的，对抗命运的武器，甚至可能是当时吸引人的地方。因此下次恋爱，无论发生什么，注意关注自己，关注自己的精神内核，不以物喜，不以己悲。牢牢记住自己的品性以及梦想。</p>
+<h2 id="2-情感过程没有对错"><a href="#2-情感过程没有对错" class="headerlink" title="2. 情感过程没有对错"></a>2. 情感过程没有对错</h2><p>这场情感里，我以道德至高点的利刃伤害她，实际上是不对的，也是情感不成熟的表现。第一，这大部分是一个误会，而不是真的如此。第二，一个不爱的过程没有对错。第三，她是我的家人，我不应该指责。因此在伴侣生活中，并不该以对错伤人。你若不爱，我便离开，我永远爱我自己。我要以这种态度生活下去。</p>
+<h2 id="3-情感失利应该如何做"><a href="#3-情感失利应该如何做" class="headerlink" title="3. 情感失利应该如何做"></a>3. 情感失利应该如何做</h2><p>情感失利时请记住千万不要哭叫喊闹，那是示弱者，会令人厌烦，毫无作用。也不要把你的痛苦讲给别人听，因为没有人真正的感同身受甚至出一些馊主意，然后让爱人更加误会。正确的做法是认识自己在这段感情和生活中有什么问题并改进。</p>
+<p>过去的生活中，自己邋遢不注意礼节的行为方式，情感不独立的幼稚行为都可能在日常生活中消磨爱情，增加这座高楼不平衡的筹码，因此在未来的生活中，要独立生活，增加自己的情感的松弛感。“管你爱不爱，老子爱自己”的生活态度生活。即使最后没有挽救，你也变成一个更加优秀，以及具有吸引力的人。</p>
+<p>这场婚姻整体是完美的，就是结束的有点戛然而止，意犹未尽的感觉。不用回顾过去，向前看，人生就是一场体验。</p>
+<blockquote><p>Marriage is a risk; I think it’s a great and glorious risk, as long as you embark on the adventure in the same spirit.</p>
+<footer><strong>Cate Blanchett</strong></footer></blockquote>]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
   </entry>
 </search>
