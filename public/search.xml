@@ -1,59 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于我</title>
-    <url>/2024/05/10/aboutme/</url>
-    <content><![CDATA[<h1 id="生活公理"><a href="#生活公理" class="headerlink" title="生活公理"></a>生活公理</h1><ol>
-<li>工作&gt;生活&gt;家人</li>
-<li>坚持身材，保持清醒</li>
-<li>工程师：致力于创造可以承载温暖的技术。</li>
-</ol>
-<h1 id="业余爱好"><a href="#业余爱好" class="headerlink" title="业余爱好"></a>业余爱好</h1><ul>
-<li>记录旅游</li>
-<li>球类运动</li>
-</ul>
-<h1 id="你还可以通过以下方式了解我"><a href="#你还可以通过以下方式了解我" class="headerlink" title="你还可以通过以下方式了解我"></a>你还可以通过以下方式了解我</h1><ul>
-<li><a href="https://github.com/xinghanlizju">github</a></li>
-<li><a href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google scholar</a></li>
-<li><a href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
-</ul>
-<h1 id="分享按照目录介绍（catagory）"><a href="#分享按照目录介绍（catagory）" class="headerlink" title="分享按照目录介绍（catagory）"></a>分享按照目录介绍（catagory）</h1><ul>
-<li>人物（character）</li>
-<li>思考 (thinking)</li>
-<li>生活 (life)</li>
-<li>工作 (working)</li>
-</ul>
-<blockquote><p>When you are studying any matter or considering any philosophy, ask yourself only what are the facts and what is the truth that the fact bears out. Never let yourself be diverted either by what you wish to believe, or by what you think would have beneficent social effects if it were believed. But look only, and solely, at what are the facts.</p>
-<p>Regarding to moral things, the love is wise, hatred is foolish. We have to learn to tolerate each other.</p>
-<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>碎碎念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/05/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>working</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>schur-complement BA</title>
     <url>/2024/05/12/schur-complement-BA-vs-MSCKF/</url>
     <content><![CDATA[<h1 id="什么是Schur-complement-BA？"><a href="#什么是Schur-complement-BA？" class="headerlink" title="什么是Schur-complement BA？"></a>什么是Schur-complement BA？</h1><h2 id="SLAM问题背景"><a href="#SLAM问题背景" class="headerlink" title="SLAM问题背景"></a>SLAM问题背景</h2><p>SLAM 问题可以列成一系列优化变量（Bundle adjustment）的非线性最小二乘问题, 其形式可以写成如下：</p>
@@ -98,17 +45,58 @@ H_f:=QR=\begin{bmatrix}
       </tags>
   </entry>
   <entry>
-    <title>一个悲观理想主义者的自述</title>
-    <url>/2024/05/25/%E7%9B%AE%E6%A0%87/</url>
-    <content><![CDATA[<h1 id="一个悲观理想主义者的自述"><a href="#一个悲观理想主义者的自述" class="headerlink" title="一个悲观理想主义者的自述"></a>一个悲观理想主义者的自述</h1><p>我是一个悲观的理想主义者。大部分时间，我对于事物的思考和形式的预测都是偏向于最坏情况; 但是又始终拥有自己的理想世界和宏大目标。即将三十而立，我未处于一个使得自己满意的人生状态。对于未来可能依旧是。但是自己依旧有着理想，并愿意朝着这个方向前行。</p>
-<h2 id="当前身心的极度疲乏"><a href="#当前身心的极度疲乏" class="headerlink" title="当前身心的极度疲乏"></a>当前身心的极度疲乏</h2><p>本人之前几年是一个科研工作者，所做工作主要涉及理论证明，算法提出，编写代码最后论文书写。在一个科研工作中，这四个步骤要不断优化迭代，最终我们要呈现一个完整的且有说服力的论文。</p>
-<p>如果一个工作到这里结束，个人认为还是颇有成就也不会那么疲倦。最疲倦的是投稿过程。由于自身的理想以及导师的理想，我们从最开始就想投最好的期刊。我所处的领域是几个非常sharp的科研工作人员有绝对的话语权。我们的研究对于研究十几年的他们，像是一个门外汉在班门弄斧。从投稿那一刻，我就常心怀忐忑从而认为期刊中的可能性极小。除此之外，有一篇投稿还出现了很长的审稿周期。家里又出现了变故。因此在现在这个年纪，身心已经极度疲乏。以前的“中规中矩”的人生规划也要重新审视。</p>
-<h2 id="当前物质的极度匮乏"><a href="#当前物质的极度匮乏" class="headerlink" title="当前物质的极度匮乏"></a>当前物质的极度匮乏</h2><p>最近几年，由于处于求学状态，经济方面十分匮乏。在自己的爱人面前或是父母面前，自己也因为无法出手体面一点常常处于囧态。这种物质的匮乏很多时候甚至无法让我专心工作。物质的匮乏也使得我担忧父母生病或者自己生病。我对于未来的自己身价或者经济情况也依旧充满悲观。</p>
-<h2 id="三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”"><a href="#三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”" class="headerlink" title="三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”"></a>三十而立？“昨夜西风凋碧树。独上高楼，望尽天涯路”</h2><p>我二十多岁的时候对于理想方向是茫然的。这十年并没有思考未来的哪条路更适合我，或者更能怼到我的兴奋点。我总认为以自己的学历和小聪明混个体面的工作不难。在这个期间，我的时间规划上也出现了极大问题，在重要的事情上不清晰，在紧要的事情上不紧张。</p>
-<p>但是将近三十，人生也经历了大喜大悲。我不断敲打自己，究竟喜欢做什么？以及为社会留下什么？因此心中构想的未来的自己也逐渐清晰。那不是一个拥有一定社会地位的人，也不一定是有一份体面工作的人，更不一定是一个有钱人。但他一定是对梦想坚定的人。他一定是一个对未来充满满腔热血的人。他一定是一个承载温暖内容的技术输出者。</p>
-<p>我的三十而立，不是家庭立，事业立。而是价值立，理想立。我也会朝着我想做的内容前行，“望尽天涯路”。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在未来的人生路上，我对事物的看待观点大概率依旧保持悲观，但是对于自己的“执着”不想因为悲观而有所改变，即使这是一种看似矛盾的性格。</p>
+    <title>爱自己</title>
+    <url>/2024/11/09/%E7%88%B1%E8%87%AA%E5%B7%B1/</url>
+    <content><![CDATA[<h1 id="当我真正开始爱自己"><a href="#当我真正开始爱自己" class="headerlink" title="当我真正开始爱自己"></a>当我真正开始爱自己</h1><p>作者：卓别林</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>当我真正开始爱自己，我才认识到，所有的痛苦和情感的折磨，都只是提醒我：活着，不要违背自己的本心。今天我明白了，这叫做“真实”。<br><blockquote><p>As I began to love myself I found that anguish and emotional suffering are only warning signs that I was living against my own truth.</p>
+<p>Today, I know, this is AUTHENTICITY.</p>
+</blockquote></p>
+<p>当我真正开始爱自己，我才懂得，把自己的愿望强加于人，是多么的无礼，就算我知道，时机并不成熟，那人也还没有做好准备，就算那个人就是我自己。今天我明白了，这叫做“尊重”。<br><blockquote><p>As I began to love myself I understood how much it can offend somebody as I try to force my desires on this person, even though I knew the time was not right and the person was not ready for it, and even though this person was me.</p>
+<p>Today I call it RESPECT.</p>
+</blockquote></p>
+<p>当我开始真正爱自己，我不再渴求不同的人生，我知道任何发生在我身边的事情，都是对我成长的邀请。如今，我称之为“成熟”。<br><blockquote><p>As I began to love myself I stopped craving for a different life, and I could see that everything that surrounded me was inviting me to grow.</p>
+<p>Today I call it MATURITY.</p>
+</blockquote></p>
+<p>当我开始真正爱自己，我才明白，我其实一直都在正确的时间，正确的地方，发生的一切都恰如其分。由此我得以平静。今天我明白了，这叫做“自信”。<br><blockquote><p>As I began to love myself I understood that at any circumstance, I am in the right place at the right time, and everything happens at the exactly right moment, so I could be calm.</p>
+<p>Today I call it SELF-CONFIDENCE.</p>
+</blockquote></p>
+<p>当我真正开始爱自己，我不再牺牲自己的自由时间，不再去勾画什么宏伟的明天。今天我只做有趣和快乐的事，做自己热爱，让心欢喜的事，用我的方式、我的韵律。今天我明白了，这叫做“单纯”。<br><blockquote><p>As I began to love myself I quit steeling my own time, and I stopped designing huge projects for the future. Today, I only do what brings me joy and happiness, things I love to do and that make my heart cheer, and I do them in my own way and in my own rhythm.</p>
+<p>Today I call it SIMPLICITY.</p>
+</blockquote></p>
+<p>当我开始真正爱自己，我开始远离一切不健康的东西。不论是饮食和人物，还是事情和环境，我远离一切让我远离本真的东西。从前我把这叫做“追求健康的自私自利”，但今天我明白了，这是“自爱”。<br><blockquote><p>As I began to love myself I freed myself of anything that is no good for my health – food, people, things, situations, and everything the drew me down and away from myself. At first I called this attitude a healthy egoism.</p>
+<p>Today I know it is LOVE OF ONESELF.</p>
+</blockquote></p>
+<p>当我开始真正爱自己，我不再总想着要永远正确，不犯错误。我今天明白了，这叫做“谦逊”。<br><blockquote><p>As I began to love myself I quit trying to always be right, and ever since I was wrong less of the time.</p>
+<p>Today I discovered that is MODESTY.</p>
+</blockquote><br>当我开始真正爱自己，我不再继续沉溺于过去，也不再为明天而忧虑，现在我只活在一切正在发生的当下，今天，我活在此时此地，如此日复一日。这就叫“完美”。<br><blockquote><p>As I began to love myself I refused to go on living in the past and worry about the future. Now, I only live for the moment, where EVERYTHING is happening.</p>
+<p>Today I live each day, day by day, and I call it FULFILLMENT.</p>
+</blockquote><br>当我开始真正爱自己，我明白，我的思虑让我变得贫乏和病态，但当我唤起了心灵的力量，理智就变成了一个重要的伙伴，这种组合我称之为，“心的智慧”。<br><blockquote><p>As I began to love myself I recognized that my mind can disturb me and it can make me sick. But As I connected it to my heart, my mind became a valuable ally.</p>
+<p>Today I call this connection WISDOM OF THE HEART.</p>
+</blockquote></p>
+<p>我们无须再害怕自己和他人的分歧，矛盾和问题，因为即使星星有时也会碰在一起，形成新的世界，今天我明白，这就是“生命”。<br><blockquote><p>We no longer need to fear arguments, confrontations or any kind of problems with ourselves or others. Even stars collide, and out of their crashing new worlds are born.</p>
+<p>Today I know THAT IS “LIFE“!</p>
+</blockquote></p>
 ]]></content>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>逝去的婚姻</title>
+    <url>/2024/11/06/marriage/</url>
+    <content><![CDATA[<h1 id="一场看似浪漫的婚礼终走向现实"><a href="#一场看似浪漫的婚礼终走向现实" class="headerlink" title="一场看似浪漫的婚礼终走向现实"></a>一场看似浪漫的婚礼终走向现实</h1><p>“我要尽我的责任，永远爱护你，理解你，尊重你。”这句在婚礼殿堂上感染了无数来宾，没想到成为了婚姻破灭的一个原因。我和我的爱人总共经历了8年多的感情，从校园爱情，异地恋，工作再到进入婚姻殿堂，让无数人羡慕。但是这些建起来的高楼大厦经不起婚姻生活的折磨最终不幸轰然倒塌。这场婚姻开始是爱人急于为父母办一个绚丽的婚礼，我出于爱她以及给她承诺，同意了这场婚礼。由于本人在求学，这场婚礼举办的也相当廉价但是确实十分感人。然而这场婚姻破灭的导火索是一场很大的误会但是实际上是因为这座大楼的建立已经不平衡。我从这场婚姻中学到了以下几点道理：</p>
+<h2 id="1-永远不要丢失自己的精神内核"><a href="#1-永远不要丢失自己的精神内核" class="headerlink" title="1. 永远不要丢失自己的精神内核"></a>1. 永远不要丢失自己的精神内核</h2><p>今年爱人父亲的车祸意外去世。在这场丧礼里，爱人经历了至暗时刻，但依旧坚韧不拔，面对生活当时也毫无怯色。由于本人并非本地人，在当地举办丧礼的帮助是有限但是却尽力了的。从岳父去世的那天起，我就暗自发誓，我要陪伴她一切，并让她快速走出来。</p>
+<p>这种陪伴是无声的，是温柔的，也是涓涓细流的。但是确实是无力的，是不健康的。因为在陪伴的过程中，我不再拥有了曾经的斗志，而是只有呵护以及陪伴，并以她为中心，想要快速建立一个家庭。这种隐患导致丹丹对我更容易没有了感觉，可能习以为常以及发展成精神控制。从而双方都觉得在消耗。因为丹丹认为我做了很多妥协，为了丹丹放弃自己的职业梦想，选择了一个很近的工作一起生活；为了丹丹选择跑长达2-3小时通勤。这种选择让她很累，以及认为两个人都不快乐。</p>
+<p>而我自己确实在这种陪伴以及成家的过程中，确实丢掉了早期的精神内核，变得丧失斗志甚至对生命悲观。我的生活重心从自己发展成了丹丹。可笑的是，我以为是浪漫，但是早已发展成精神控制。</p>
+<p>直到丹丹最近遇到了一群朋友发生了价值观的重要改变。在与朋友的自由而放肆的生活中，她感受到了从未有过的快乐。这种快乐让她认为在生命里应该及时行乐。她也确实在这种快乐汲取能量，从而高效上班生活。但是，在这些自由而放肆的快乐中，我因为过去以丹丹为中心，有极度的不安全感，丧失了平稳的精神内核，在每次漫无目的的娱乐中也变的焦躁不安。而恰恰平稳的精神内核对我的生活，工作也很重要（日常需要冷静分析问题，解决问题）。因此，我感觉到了消耗。</p>
+<p>导火索是一场极大的误会。在这个误会中，因为我过度依赖丹丹，丧失了早期的冷静、情绪稳定以及理智的精神内核，变得粗暴，无理，情绪不稳定以及哭诉。像一个丢在马路上的孩子一样，及其情感不成熟。也让我的爱人发出了隐藏8年终于看透我的感慨。发展到后面本人的埋怨，焦躁，乞求、哭叫喊闹、寻求帮助的情绪让丹丹彻底对我死心。而这些情绪本不是我过去平稳的精神内核，或者是我幼稚一面衍生出来的。</p>
+<p>等到一切结束，我才发现，我以为的陪伴感动最后丢失了自己的“顽强，积极”平稳的精神内核。而这一切，才应该是我该关注的，对抗命运的武器，甚至可能是当时吸引人的地方。因此下次恋爱，无论发生什么，注意关注自己，关注自己的精神内核，不以物喜，不以己悲。牢牢记住自己的品性以及梦想。</p>
+<h2 id="2-情感过程没有对错"><a href="#2-情感过程没有对错" class="headerlink" title="2. 情感过程没有对错"></a>2. 情感过程没有对错</h2><p>这场情感里，我以道德至高点的利刃伤害她，实际上是不对的，也是情感不成熟的表现。第一，这大部分是一个误会，而不是真的如此。第二，一个不爱的过程没有对错。第三，她是我的家人，我不应该指责。因此在伴侣生活中，并不该以对错伤人。你若不爱，我便离开，我永远爱我自己。我要以这种态度生活下去。</p>
+<h2 id="3-情感失利应该如何做"><a href="#3-情感失利应该如何做" class="headerlink" title="3. 情感失利应该如何做"></a>3. 情感失利应该如何做</h2><p>情感失利时请记住千万不要哭叫喊闹，那是示弱者，会令人厌烦，毫无作用。也不要把你的痛苦讲给别人听，因为没有人真正的感同身受甚至出一些馊主意，然后让爱人更加误会。正确的做法是认识自己在这段感情和生活中有什么问题并改进。</p>
+<p>过去的生活中，自己邋遢不注意礼节的行为方式，情感不独立的幼稚行为都可能在日常生活中消磨爱情，增加这座高楼不平衡的筹码，因此在未来的生活中，要独立生活，增加自己的情感的松弛感。“管你爱不爱，老子爱自己”的生活态度生活。即使最后没有挽救，你也变成一个更加优秀，以及具有吸引力的人。</p>
+<p>这场婚姻整体是完美的，就是结束的有点戛然而止，意犹未尽的感觉。不用回顾过去，向前看，人生就是一场体验。</p>
+<blockquote><p>Marriage is a risk; I think it’s a great and glorious risk, as long as you embark on the adventure in the same spirit.</p>
+<footer><strong>Cate Blanchett</strong></footer></blockquote>]]></content>
       <categories>
         <category>life</category>
       </categories>
@@ -140,21 +128,63 @@ H_f:=QR=\begin{bmatrix}
       </tags>
   </entry>
   <entry>
-    <title>逝去的婚姻</title>
-    <url>/2024/11/06/marriage/</url>
-    <content><![CDATA[<h1 id="一场看似浪漫的婚礼终走向现实"><a href="#一场看似浪漫的婚礼终走向现实" class="headerlink" title="一场看似浪漫的婚礼终走向现实"></a>一场看似浪漫的婚礼终走向现实</h1><p>“我要尽我的责任，永远爱护你，理解你，尊重你。”这句在婚礼殿堂上感染了无数来宾，没想到成为了婚姻破灭的一个原因。我和我的爱人总共经历了8年多的感情，从校园爱情，异地恋，工作再到进入婚姻殿堂，让无数人羡慕。但是这些建起来的高楼大厦经不起婚姻生活的折磨最终不幸轰然倒塌。这场婚姻开始是爱人急于为父母办一个绚丽的婚礼，我出于爱她以及给她承诺，同意了这场婚礼。由于本人在求学，这场婚礼举办的也相当廉价但是确实十分感人。然而这场婚姻破灭的导火索是一场很大的误会但是实际上是因为这座大楼的建立已经不平衡。我从这场婚姻中学到了以下几点道理：</p>
-<h2 id="1-永远不要丢失自己的精神内核"><a href="#1-永远不要丢失自己的精神内核" class="headerlink" title="1. 永远不要丢失自己的精神内核"></a>1. 永远不要丢失自己的精神内核</h2><p>今年爱人父亲的车祸意外去世。在这场丧礼里，爱人经历了至暗时刻，但依旧坚韧不拔，面对生活当时也毫无怯色。由于本人并非本地人，在当地举办丧礼的帮助是有限但是却尽力了的。从岳父去世的那天起，我就暗自发誓，我要陪伴她一切，并让她快速走出来。</p>
-<p>这种陪伴是无声的，是温柔的，也是涓涓细流的。但是确实是无力的，是不健康的。因为在陪伴的过程中，我不再拥有了曾经的斗志，而是只有呵护以及陪伴，并以她为中心，想要快速建立一个家庭。这种隐患导致丹丹对我更容易没有了感觉，可能习以为常以及发展成精神控制。从而双方都觉得在消耗。因为丹丹认为我做了很多妥协，为了丹丹放弃自己的职业梦想，选择了一个很近的工作一起生活；为了丹丹选择跑长达2-3小时通勤。这种选择让她很累，以及认为两个人都不快乐。</p>
-<p>而我自己确实在这种陪伴以及成家的过程中，确实丢掉了早期的精神内核，变得丧失斗志甚至对生命悲观。我的生活重心从自己发展成了丹丹。可笑的是，我以为是浪漫，但是早已发展成精神控制。</p>
-<p>直到丹丹最近遇到了一群朋友发生了价值观的重要改变。在与朋友的自由而放肆的生活中，她感受到了从未有过的快乐。这种快乐让她认为在生命里应该及时行乐。她也确实在这种快乐汲取能量，从而高效上班生活。但是，在这些自由而放肆的快乐中，我因为过去以丹丹为中心，有极度的不安全感，丧失了平稳的精神内核，在每次漫无目的的娱乐中也变的焦躁不安。而恰恰平稳的精神内核对我的生活，工作也很重要（日常需要冷静分析问题，解决问题）。因此，我感觉到了消耗。</p>
-<p>导火索是一场极大的误会。在这个误会中，因为我过度依赖丹丹，丧失了早期的冷静、情绪稳定以及理智的精神内核，变得粗暴，无理，情绪不稳定以及哭诉。像一个丢在马路上的孩子一样，及其情感不成熟。也让我的爱人发出了隐藏8年终于看透我的感慨。发展到后面本人的埋怨，焦躁，乞求、哭叫喊闹、寻求帮助的情绪让丹丹彻底对我死心。而这些情绪本不是我过去平稳的精神内核，或者是我幼稚一面衍生出来的。</p>
-<p>等到一切结束，我才发现，我以为的陪伴感动最后丢失了自己的“顽强，积极”平稳的精神内核。而这一切，才应该是我该关注的，对抗命运的武器，甚至可能是当时吸引人的地方。因此下次恋爱，无论发生什么，注意关注自己，关注自己的精神内核，不以物喜，不以己悲。牢牢记住自己的品性以及梦想。</p>
-<h2 id="2-情感过程没有对错"><a href="#2-情感过程没有对错" class="headerlink" title="2. 情感过程没有对错"></a>2. 情感过程没有对错</h2><p>这场情感里，我以道德至高点的利刃伤害她，实际上是不对的，也是情感不成熟的表现。第一，这大部分是一个误会，而不是真的如此。第二，一个不爱的过程没有对错。第三，她是我的家人，我不应该指责。因此在伴侣生活中，并不该以对错伤人。你若不爱，我便离开，我永远爱我自己。我要以这种态度生活下去。</p>
-<h2 id="3-情感失利应该如何做"><a href="#3-情感失利应该如何做" class="headerlink" title="3. 情感失利应该如何做"></a>3. 情感失利应该如何做</h2><p>情感失利时请记住千万不要哭叫喊闹，那是示弱者，会令人厌烦，毫无作用。也不要把你的痛苦讲给别人听，因为没有人真正的感同身受甚至出一些馊主意，然后让爱人更加误会。正确的做法是认识自己在这段感情和生活中有什么问题并改进。</p>
-<p>过去的生活中，自己邋遢不注意礼节的行为方式，情感不独立的幼稚行为都可能在日常生活中消磨爱情，增加这座高楼不平衡的筹码，因此在未来的生活中，要独立生活，增加自己的情感的松弛感。“管你爱不爱，老子爱自己”的生活态度生活。即使最后没有挽救，你也变成一个更加优秀，以及具有吸引力的人。</p>
-<p>这场婚姻整体是完美的，就是结束的有点戛然而止，意犹未尽的感觉。不用回顾过去，向前看，人生就是一场体验。</p>
-<blockquote><p>Marriage is a risk; I think it’s a great and glorious risk, as long as you embark on the adventure in the same spirit.</p>
-<footer><strong>Cate Blanchett</strong></footer></blockquote>]]></content>
+    <title>自述</title>
+    <url>/2024/05/25/%E7%9B%AE%E6%A0%87/</url>
+    <content><![CDATA[<p>重新审视自己，审视生活……</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/05/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>working</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于我</title>
+    <url>/2024/05/10/aboutme/</url>
+    <content><![CDATA[<h1 id="生活公理"><a href="#生活公理" class="headerlink" title="生活公理"></a>生活公理</h1><ol>
+<li>工作&gt;生活&gt;家人</li>
+<li>坚持身材，保持清醒</li>
+<li>工程师：致力于创造可以承载温暖的技术。</li>
+</ol>
+<h1 id="业余爱好"><a href="#业余爱好" class="headerlink" title="业余爱好"></a>业余爱好</h1><ul>
+<li>记录旅游</li>
+<li>球类运动</li>
+</ul>
+<h1 id="你还可以通过以下方式了解我"><a href="#你还可以通过以下方式了解我" class="headerlink" title="你还可以通过以下方式了解我"></a>你还可以通过以下方式了解我</h1><ul>
+<li><a href="https://github.com/xinghanlizju">github</a></li>
+<li><a href="https://scholar.google.com/citations?user=9nndyKoAAAAJ&amp;hl=zh-CN">google scholar</a></li>
+<li><a href="https://www.linkedin.com/in/xinghan-li-707155285/">linkin</a></li>
+</ul>
+<h1 id="分享按照目录介绍（catagory）"><a href="#分享按照目录介绍（catagory）" class="headerlink" title="分享按照目录介绍（catagory）"></a>分享按照目录介绍（catagory）</h1><ul>
+<li>人物（character）</li>
+<li>思考 (thinking)</li>
+<li>生活 (life)</li>
+<li>工作 (working)</li>
+</ul>
+<blockquote><p>When you are studying any matter or considering any philosophy, ask yourself only what are the facts and what is the truth that the fact bears out. Never let yourself be diverted either by what you wish to believe, or by what you think would have beneficent social effects if it were believed. But look only, and solely, at what are the facts.</p>
+<p>Regarding to moral things, the love is wise, hatred is foolish. We have to learn to tolerate each other.</p>
+<footer><strong>Russell</strong><cite>Interview to Future Generation</cite></footer></blockquote>]]></content>
       <categories>
         <category>life</category>
       </categories>
